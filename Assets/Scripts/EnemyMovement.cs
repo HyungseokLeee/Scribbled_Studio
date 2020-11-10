@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     public float speed;
     public Transform target;
     private GameController gC;
+    public int lives = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,22 @@ public class EnemyMovement : MonoBehaviour
         if (Vector2.Distance(transform.position, target.position) > 1.5)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        }
+
+        if (lives < 1)
+        {
+            Destroy(this.gameObject);
+            gC.Score += 100;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            lives = lives - 1;
+            Debug.Log("SE");
+            Destroy(other.gameObject);
         }
     }
 }

@@ -5,24 +5,56 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float speed = 5f;
+    public float speed;
     private Vector2 movement;
     private Vector2 fixedMovement;
     private float horiz;
     private float vert;
     private bool canMove = true;
     private GameController gC;
+    public float rotateSpeed;
 
-    public float rotateSpeed = 45f;
+    [Header("Attack Settings")]
+    public GameObject bullet;
+    public GameObject bulletSpawn;
+    public float fireRate;
+    private Rigidbody2D rBody;
+
+    private float timer = 0.0f;
+    private float myTime = 0.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject gCO = GameObject.FindWithTag("GameController");
         gC = gCO.GetComponent<GameController>();
+        rBody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
+    {
+        timer -= Time.deltaTime;
+        myTime += Time.deltaTime;
+        if (timer >= 0.0)
+        {
+            //fireRate = 0.10f;
+            if (Input.GetKey("space") && myTime > fireRate)
+            {
+                Instantiate(bullet, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
+                myTime = 0.0f;
+            }
+        }
+        else
+        {
+            if (Input.GetKey("space") && myTime > fireRate)
+            {
+                Instantiate(bullet, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
+                myTime = 0.0f;
+            }
+        }
+        //fireRate = 0.15f;
+    }
+    void FixedUpdate()
     {
         if (canMove == true)
         {

@@ -15,9 +15,15 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 42
     width: 1500
     height: 918
+=======
+    y: 43.2
+    width: 1536
+    height: 780.8
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
@@ -117,12 +123,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1500
     height: 868
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 60
+=======
+    width: 1536
+    height: 731
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
+  vertical: 0
+  controlID: 122
+>>>>>>> parent of 8865a33... Added Player Movement
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,12 +157,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1054
     height: 868
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 69
+=======
+    width: 1079
+    height: 731
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 82
+>>>>>>> parent of 8865a33... Added Player Movement
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +196,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 107
+=======
+  controlID: 57
+>>>>>>> parent of 8865a33... Added Player Movement
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,23 +265,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 465
     width: 1054
     height: 403
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
+=======
+    y: 392
+    width: 1079
+    height: 339
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+>>>>>>> parent of 8865a33... Added Player Movement
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
+=======
+  - {fileID: 18}
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> parent of 8865a33... Added Player Movement
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,11 +314,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1054
     y: 0
+<<<<<<< HEAD
     width: 446
     height: 868
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
+=======
+    width: 457
+    height: 731
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
+>>>>>>> parent of 8865a33... Added Player Movement
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
@@ -302,10 +353,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 315
     y: 72
     width: 737
     height: 444
+=======
+    x: 322.4
+    y: 73.6
+    width: 755
+    height: 371
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -328,10 +386,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -169.25
     m_HBaseRangeMax: 169.25
     m_VBaseRangeMin: -105.75
     m_VBaseRangeMax: 105.75
+=======
+    m_HBaseRangeMin: -224
+    m_HBaseRangeMax: 224
+    m_VBaseRangeMin: -140
+    m_VBaseRangeMax: 140
+>>>>>>> parent of 8865a33... Added Player Movement
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -364,8 +429,13 @@ MonoBehaviour:
       width: 368.5
       height: 211.5
     m_MinimalGUI: 1
+<<<<<<< HEAD
   m_defaultScale: 2
   m_LastWindowPixelSize: {x: 1474, y: 888}
+=======
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 943.75, y: 463.75}
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -393,30 +463,42 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 72
     width: 314
     height: 444
+=======
+    y: 73.6
+    width: 321
+    height: 371
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 28560000
       m_LastClickedID: 22056
       m_ExpandedIDs: 52d0ffff50d1ffff
+=======
+      m_SelectedIDs: f0410000
+      m_LastClickedID: 16880
+      m_ExpandedIDs: 68e7ffff7ce7ffff60e8ffff68e8fffff6e8ffff3ee9ffff84e9ffffcae9ffff68eaffffb2eafffff2eaffff42ebffff8cebffffd2ebffffccecffffd4ecffff1aedffffb0eeffffc4eeffffacefffffb4efffff68f6ffff70f6ffff4cf9ffff90faffffaefaffff5efbffff00000000403a0000723a0000f23a00000c420000
+>>>>>>> parent of 8865a33... Added Player Movement
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: GameController
+        m_OriginalName: GameController
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -2450
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -447,10 +529,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 315
     y: 72
     width: 737
     height: 444
+=======
+    x: 322.4
+    y: 73.6
+    width: 755
+    height: 371
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: ad340661264c0284f8e106e605e7aea7
@@ -463,9 +552,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -2.8558555, y: -0.4846391, z: 154.37962}
     speed: 2
     m_Value: {x: -2.8558555, y: -0.4846391, z: 154.37962}
+=======
+    m_Target: {x: -0.84577334, y: 0.22098446, z: 220.30293}
+    speed: 2
+    m_Value: {x: -0.84577334, y: 0.22098446, z: 220.30293}
+>>>>>>> parent of 8865a33... Added Player Movement
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -516,9 +611,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 19.272097
     speed: 2
     m_Value: 19.272097
+=======
+    m_Target: 6.0043044
+    speed: 2
+    m_Value: 6.0043044
+>>>>>>> parent of 8865a33... Added Player Movement
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -591,9 +692,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 537
     width: 1053
     height: 382
+=======
+    y: 465.6
+    width: 1078
+    height: 318
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -615,14 +722,24 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\skate\3D Objects\Unity\Scribbled_Studio
+=======
+  m_LastProjectPath: D:\College\semester5\PracticalGameDesign\GroupProject\Scribbled_Studiio
+>>>>>>> parent of 8865a33... Added Player Movement
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 0a560000
     m_LastClickedID: 22026
     m_ExpandedIDs: 000000000056000000ca9a3b
+=======
+    m_SelectedIDs: 84390000
+    m_LastClickedID: 14724
+    m_ExpandedIDs: 000000007e39000000ca9a3b
+>>>>>>> parent of 8865a33... Added Player Movement
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +767,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000000560000
+=======
+    m_ExpandedIDs: 000000007e390000
+>>>>>>> parent of 8865a33... Added Player Movement
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -678,7 +799,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000303a0000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -727,8 +848,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 473
+    x: 0
+    y: 465.6
     width: 1078
     height: 318
   m_ViewDataDictionary: {fileID: 0}
@@ -753,10 +874,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1054
     y: 72
     width: 445
     height: 847
+=======
+    x: 1079.2001
+    y: 73.6
+    width: 456
+    height: 710
+>>>>>>> parent of 8865a33... Added Player Movement
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -765,6 +893,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
+<<<<<<< HEAD
   m_LastVerticalScrollValue: 0
   m_AssetGUID: 
   m_InstanceID: 0
@@ -772,6 +901,10 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &19
+=======
+  m_LastVerticalScrollValue: 540
+--- !u!114 &20
+>>>>>>> parent of 8865a33... Added Player Movement
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}

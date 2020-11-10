@@ -11,14 +11,15 @@ public class PlayerMovement : MonoBehaviour
     private float horiz;
     private float vert;
     private bool canMove = true;
-
+    private GameController gC;
 
     public float rotateSpeed = 45f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        GameObject gCO = GameObject.FindWithTag("GameController");
+        gC = gCO.GetComponent<GameController>();
     }
 
     void Update()

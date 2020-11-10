@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
 
 
-    public float rotateSpeed = 180f;
+    public float rotateSpeed = 45f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (canMove == true)
         {
@@ -37,13 +37,13 @@ public class PlayerMovement : MonoBehaviour
         Rigidbody2D rBody = GetComponent<Rigidbody2D>();
         rBody.velocity = movement * speed;
 
-        if (Input.GetKeyDown("q"))
+        if (Input.GetKey("q"))
         {
             transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
         }
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKey("e"))
         {
-            transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
+            transform.Rotate(-Vector3.forward * rotateSpeed * Time.deltaTime);
         }
     }
 }

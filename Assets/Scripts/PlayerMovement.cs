@@ -72,6 +72,22 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("Walk", false);
         }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animator.SetBool("Walk", true);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            animator.SetBool("Walk", false);
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animator.SetBool("Walk", true);
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            animator.SetBool("Walk", false);
+        }
         //idle shoot
         if (Input.GetKeyDown(KeyCode.Space))
         {

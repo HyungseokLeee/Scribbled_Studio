@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
     private GameController gC;
     public float rotateSpeed;
+    public Animator animator;
 
     [Header("Attack Settings")]
     public GameObject bullet;
@@ -53,6 +54,15 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         //fireRate = 0.15f;
+
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            animator.SetBool("Walk", true);
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            animator.SetBool("Walk", false);
+        }
     }
     void FixedUpdate()
     {

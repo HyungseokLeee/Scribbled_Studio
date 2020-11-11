@@ -139,6 +139,11 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 300385942}
+    - target: {fileID: 6916224503314367683, guid: a624be14e3309f54cab6fa2ef915473d,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6916224503314367685, guid: a624be14e3309f54cab6fa2ef915473d,
         type: 3}
       propertyPath: m_Name

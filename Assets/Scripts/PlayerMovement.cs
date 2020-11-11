@@ -55,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         }
         //fireRate = 0.15f;
 
+        //Animation boolean triggers
         if(Input.GetKeyDown(KeyCode.W))
         {
             animator.SetBool("Walk", true);
@@ -62,6 +63,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.W))
         {
             animator.SetBool("Walk", false);
+        }
+        //idle shoot
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetBool("Shoot", true);
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            animator.SetBool("Shoot", false);
         }
     }
     void FixedUpdate()

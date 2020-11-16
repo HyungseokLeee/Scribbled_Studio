@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 9085237277658410272}
   - component: {fileID: 1757202559081502735}
   m_Layer: 0
-  m_Name: dungeon_tiles_20
+  m_Name: Open door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
